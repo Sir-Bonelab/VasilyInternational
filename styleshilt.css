@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: radial-gradient(#0e5877,#080563);
+    font-family: "Inknut Antiqua", sans-serif;
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 150;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 150px 0 170;
+}
+
+#read_more_link {
+    border: solid 2px #790FFF;
+    padding: 5px 5px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 50px auto;
+    text-decoration: none;
+    color: black;
+}
+
+#read_more_link:hover {
+    background-color: #790FFF;
+    color: black;
+}
+
+#description {
+    width: 400px;
+    font-size: large;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+}
+
+nav{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1000px;
+    top: 0;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration:underline;
+    color:azure;
+}
+
+#main_link {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#control {
+    position:absolute;
+    right: 270px;
+    top: 100px;
+    height: 250px;
+}
+
+h2 {
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 170px;
+}
+h3 {
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 670px;
+}
+#about_me p{
+    font-size: 20px;
+    width: 400px;
+    float: left;
+    margin: 30px 0;
+}
+
+#star {
+    position:absolute;
+    right:200;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#main .background{
+    top: 0;
+    background:radial-gradient(#080563,#790FFF);
+    height: 770px;
+}
+
+#about_me .background{
+    top: 770px;
+    background:rgb(14, 102, 233) ;
+    height: 800px;
+}
+
+#skills .background{
+    top: 1500px;
+    background: radial-gradient(#0e5877,#080563);
+    height:770px;
+}
+
+#skills {
+    color:white 
+}
+
+#skills figure {
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+#skills figure figcaption{
+    font-size: 20px;
+}
+
+#project .background{
+    top: 4000px;
+    background-color: #36B5EC;
+    height: 1000px;
+}
+
+#project .gallery{
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+
+#project p{
+    width: 50%;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#how .background{
+    top: 3250px;
+    background: linear-gradient(#36B6EC,#2723DE);
+    height: 950px;
+}
+
+#how{
+    color: white;
+    padding: 100px 0;
+}
+
+#plans h2 {
+    text-align: center;
+}
+
+#plans .background{
+    top: 4150px;
+    background: #36B6EC;
+    height:0px;
+}
+
+#plans table{
+    font-size: large;
+    float: right;
+}
+
+#plans table td{
+    vertical-align: top;
+    padding: 0 0 30px 60px;
+}
+
+#end{
+    clear: both;
+    padding: 100px 0;
+    color:white;
+}
+
+#end .background{
+    top: 3800px;
+    background:#36B6EC;
+    height: 550px;
+}
